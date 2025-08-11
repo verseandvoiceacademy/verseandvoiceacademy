@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Verse and Voice Academy</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
+  body {
+    font-family: 'Vazirmatn', sans-serif;
+    margin:0; padding:0;
+    background: #f7f1e9;
+    color: #4a2c1a;
+    direction: rtl;
+  }
+  .academy-name {
+    background-color: #826953;
+    color: #f3e8dd;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  header {
+    background: #3b2e2a;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f3e8dd;
+  }
+  .social-icons {
+    margin-left: 20px;
+  }
+  .social-icons a svg {
+    fill: #f3e8dd;
+    width: 26px;
+    height: 26px;
+    transition: fill 0.3s ease;
+  }
+  .social-icons a:hover svg {
+    fill: #826953;
+  }
+  nav a {
+    color: #f3e8dd;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  header img {
+    height: 50px;
+  }
+  .hero {
+    background: #826953;
+    color: #f3e8dd;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  .hero p {
+    font-size: 1.3rem;
+    font-style: italic;
+  }
+  main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  section {
+    margin-bottom: 50px;
+  }
+  h2 {
+    border-bottom: 3px solid #826953;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    color: #4a2c1a;
+  }
+  .about p {
+    font-size: 1.15rem;
+    line-height: 1.6;
+  }
+  .courses .course-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .course-card {
+    flex: 1 1 250px;
+    background: #f3e8dd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 3px 8px rgba(75,44,26,0.3);
+  }
+  .course-card h3 {
+    margin-top: 0;
+    color: #3b2e2a;
+  }
+  .course-card p {
+    font-size: 1rem;
+  }
+  .instructors .instructor-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    text-align: right;
+  }
+  .instructor-card {
+    flex: 1 1 200px;
+    background: #f3e8dd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 3px 8px rgba(75,44,26,0.3);
+    text-align: right;
+  }
+  form {
+    background: #f3e8dd;
+    padding: 25px 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(75,44,26,0.3);
+    max-width: 500px;
+    margin: 0 auto 50px auto;
+  }
+  form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #4a2c1a;
+  }
+  form input, form select {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1.5px solid #826953;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #4a2c1a;
+  }
+  form button {
+    background: #826953;
+    color: #f3e8dd;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  form button:hover {
+    background: #4a2c1a;
+  }
+  footer {
+    background: #3b2e2a;
+    color: #f3e8dd;
+    padding: 20px;
+    text-align: center;
+  }
+  footer a {
+    color: #f3e8dd;
+    margin: 0 10px;
+    font-size: 1.3rem;
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: #826953;
+  }
+</style>
+</head>
+<body>
+
+<section class="academy-name">
+  Verse and Voice Academy
+</section>
+
+<header>
+  <div class="social-icons">
+    <a href="https://instagram.com/verseandvoiceacademy" target="_blank" aria-label="Instagram">
+      <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;" width="24" height="24" fill="#f3e8dd" viewBox="0 0 24 24"><path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 2A3.75 3.75 0 004 7.75v8.5A3.75 3.75 0 007.75 20h8.5a3.75 3.75 0 003.75-3.75v-8.5A3.75 3.75 0 0016.25 4h-8.5zm8.25 1.5a.75.75 0 110 1.5.75.75 0 010-1.5zM12 7a5 5 0 110 10 5 5 0 010-10z"/></svg>
+    </a>
+  </div>
+  <nav>
+    <a href="#about">درباره ما</a>
+    <a href="#courses">دوره‌ها</a>
+    <a href="#instructors">اساتید</a>
+    <a href="#register">ثبت‌نام</a>
+  </nav>
+  <img src="https://i.ibb.co/mN1B3Yh/logo-vv.png" alt="Verse and Voice Logo" />
+</header>
+
+<section class="hero">
+  <h1>Between Verse and Voice, we teach the world’s tongue 🤎</h1>
+  <p>جایی میان واژه و صدا، ما زبان جهان را می‌آموزیم</p>
+</section>
+
+<main>
+
+<section id="about" class="about">
+  <h2>درباره ما</h2>
+  <p>آکادمی Verse and Voice با هدف آموزش زبان انگلیسی و ترجمه به صورت تخصصی و حرفه‌ای، بستری امن و جذاب برای یادگیری همه سنین ایجاد کرده است. ما معتقدیم میان واژه و صدا، زبان جهان را باید به بهترین شکل آموخت و به اشتراک گذاشت.</p>
+</section>
+
+<section id="courses" class="courses">
+  <h2>دوره‌های ما</h2>
+  <div class="course-list">
+    <div class="course-card">
+      <h3>دوره کودکان</h3>
+      <p>آموزش زبان انگلیسی به کودکان با روش‌های تعاملی و بازی محور.</p>
+    </div>
+    <div class="course-card">
+      <h3>دوره نوجوانان</h3>
+      <p>تقویت مهارت‌های گفتاری و نوشتاری ویژه نوجوانان.</p>
+    </div>
+    <div class="course-card">
+      <h3>دوره بزرگسالان</h3>
+      <p>آموزش زبان انگلیسی به صورت فشرده و تخصصی برای بزرگسالان.</p>
+    </div>
+    <div class="course-card">
+      <h3>بخش ترجمه</h3>
+      <p>دوره‌های تخصصی ترجمه با اساتید مجرب و متون واقعی.</p>
+    </div>
+  </div>
+</section>
+
+<section id="instructors" class="instructors">
+  <h2>اساتید و اعضا</h2>
+  <div class="instructor-list">
+    <div class="instructor-card">
+      <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="استاد زهرا" />
+      <h4>زهرا محمدی</h4>
+      <p>متخصص آموزش زبان کودکان با ۵ سال تجربه.</p>
+    </div>
+    <div class="instructor-card">
+      <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="استاد علی" />
+      <h4>علی رضایی</h4>
+      <p>مدرس دوره‌های نوجوانان و ترجمه.</p>
+    </div>
+    <div class="instructor-card">
+      <img src="https://randomuser.me/api/portraits/women/77.jpg" alt="استاد مریم" />
+      <h4>مریم حسینی</h4>
+      <p>اساتید بزرگسالان و مترجم حرفه‌ای.</p>
+    </div>
+  </div>
+</section>
+
+<section id="register" class="register">
+  <h2>ثبت‌نام در دوره‌ها</h2>
+  <form id="registrationForm" action="https://docs.google.com/forms/d/e/1FAIpQLSeEXAMPLEFORMURL/formResponse" method="POST" target="_blank" onsubmit="return validateForm()">
+    <label for="name">نام کامل:</label>
+    <input type="text" id="name" name="entry.1234567890" required />
+
+    <label for="phone">شماره تماس:</label>
+    <input type="tel" id="phone" name="entry.0987654321" required pattern="^\+?\d{10,15}$" placeholder="+98xxxxxxxxxx" />
+
+    <label for="ageLevel">سن / سطح زبان:</label>
+    <select id="ageLevel" name="entry.1122334455" required>
+      <option value="">انتخاب کنید</option>
+      <option value="کودک">کودک</option>
+      <option value="نوجوان">نوجوان</option>
+      <option value="بزرگسال">بزرگسال</option>
+      <option value="ترجمه">ترجمه</option>
+    </select>
+
+    <label for="course">دوره مورد علاقه:</label>
+    <select id="course" name="entry.6677889900" required>
+      <option value="">انتخاب کنید</option>
+      <option value="دوره کودکان">دوره کودکان</option>
+      <option value="دوره نوجوانان">دوره نوجوانان</option>
+      <option value="دوره بزرگسالان">دوره بزرگسالان</option>
+      <option value="بخش ترجمه">بخش ترجمه</option>
+    </select>
+
+    <button type="submit">ارسال</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Verse and Voice Academy</p>
+  <a href="https://instagram.com/verseandvoiceacademy" target="_blank" aria-label="Instagram">
+    <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;" width="24" height="24" fill="#f3e8dd" viewBox="0 0 24 24"><path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 2A3.75 3.75 0 004 7.75v8.5A3.75 3.75 0 007.75 20h8.5a3.75 3.75 0 003.75-3.75v-8.5A3.75 3.75 0 0016.25 4h-8.5zm8.25 1.5a.75.75 0 110 1.5.75.75 0 010-1.5zM12 7a5 5 0 110 10 5 5 0 010-10z"/></svg>
+  </a>
+  <a href="https://t.me/your_telegram" target="_blank" aria-label="Telegram">
+    <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;" width="24" height="24" fill="#f3e8dd" viewBox="0 0 24 24"><path d="M2 12l18-9-2 18-5-6-4 5-1-6-6-2z"/></svg>
+  </a>
+</footer>
+
+<script>
+  function validateForm() {
+    const phone = document.getElementById('phone').value;
+    const phonePattern = /^\+?\d{10,15}$/;
+    if (!phonePattern.test(phone)) {
+      alert('لطفا شماره تماس معتبر وارد کنید (مثال: +989123456789)');
+      return false;
+    }
+    return true;
+  }
+</script>
+
+</body>
+</html>
